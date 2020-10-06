@@ -217,7 +217,7 @@ typedef NS_ENUM(NSInteger, HMSegmentedControlImagePosition) {
 /**
  Index of the currently selected segment.
  */
-@property (nonatomic, assign) NSUInteger selectedSegmentIndex;
+@property (nonatomic, assign) NSInteger selectedSegmentIndex;
 
 /**
  Height of the selection indicator. Only effective when `HMSegmentedControlSelectionStyle` is either `HMSegmentedControlSelectionStyleTextWidthStripe` or `HMSegmentedControlSelectionStyleFullWidthStripe`.
